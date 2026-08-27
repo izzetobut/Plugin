@@ -1,0 +1,12 @@
+name: GorevSistemi
+version: 1.0.0
+main: com.izzet.gorevler.GorevlerPlugin
+api-version: '1.21'
+author: izzet
+depend: [Vault]
+
+commands:
+  gorevler:
+    description: Gorevler menusunu acar
+    usage: /gorevler
+    aliases: [görevler, gorev, görev]
